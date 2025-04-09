@@ -1,0 +1,284 @@
+{
+  "destinations": [
+    {
+      "id": "kyoto",
+      "destination": "Kyoto, Japan",
+      "description": "You need serenity. Go walk among temples and cherry blossoms, savoring matcha and street food.",
+      "image": "https://images.unsplash.com/photo-1492571350019-22de08371fd3",
+      "funFact": "Fun fact: Kyoto was spared from WWII bombings due to its cultural significance and was actually removed from the atomic bomb target list.",
+      "criteria": {
+        "weather": ["sunny", "mild"],
+        "activity": ["cultural"],
+        "palette": ["pastel", "vibrant"],
+        "pace": ["slow", "balanced"],
+        "food": ["traditional", "street"]
+      }
+    },
+    {
+      "id": "paris",
+      "destination": "Paris, France",
+      "description": "You seek romance and culture. Experience world-class art, iconic architecture, and exquisite French cuisine.",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "funFact": "Fun fact: The Eiffel Tower was originally meant to be a temporary structure for the 1889 World's Fair and was supposed to be dismantled after 20 years!",
+      "criteria": {
+        "weather": ["mild"],
+        "activity": ["cultural", "urban"],
+        "palette": ["pastel", "monochrome"],
+        "pace": ["balanced", "slow"],
+        "food": ["fine", "traditional"]
+      }
+    },
+    {
+      "id": "barcelona",
+      "destination": "Barcelona, Spain",
+      "description": "You want vibrant energy. Enjoy sunny beaches, tapas, and Gaudí's architecture.",
+      "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216",
+      "funFact": "Fun fact: The Sagrada Familia has been under construction for over 140 years - longer than it took to build the Great Pyramid of Giza!",
+      "criteria": {
+        "weather": ["sunny"],
+        "activity": ["beach", "cultural"],
+        "palette": ["vibrant", "sunset"],
+        "pace": ["balanced"],
+        "food": ["street", "seafood"]
+      }
+    },
+    {
+      "id": "dubai",
+      "destination": "Dubai, UAE",
+      "description": "You want modern desert luxury. Experience futuristic architecture, desert safaris, and international cuisine.",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+      "funFact": "Fun fact: Dubai is home to the world's tallest building, the Burj Khalifa, which stands at 2,717 feet tall!",
+      "criteria": {
+        "weather": ["desert"],
+        "activity": ["urban", "adventure"],
+        "palette": ["monochrome", "sunset"],
+        "pace": ["luxury", "fast"],
+        "food": ["fine"]
+      }
+    },
+    {
+      "id": "queenstown",
+      "destination": "Queenstown, New Zealand",
+      "description": "You seek adrenaline. Try bungee jumping, skiing, and fresh mountain cuisine.",
+      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad",
+      "funFact": "Fun fact: Queenstown is known as the birthplace of commercial bungee jumping, with the world's first commercial jump site opening in 1988!",
+      "criteria": {
+        "weather": ["snowy", "mild"],
+        "activity": ["adventure"],
+        "palette": ["earthy"],
+        "pace": ["adventurous", "fast"],
+        "food": ["healthy"]
+      }
+    },
+    {
+      "id": "bali",
+      "destination": "Bali, Indonesia",
+      "description": "You seek peace. Find it in tropical rain and ocean waves, with fresh, healthy cuisine.",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+      "funFact": "Fun fact: In Bali, every 210 days on the Pawukon calendar is a day called Tumpek Wayang, dedicated to blessing puppets!",
+      "criteria": {
+        "weather": ["rainy"],
+        "activity": ["beach", "cultural"],
+        "palette": ["ocean", "vibrant"],
+        "pace": ["slow"],
+        "food": ["healthy", "vegan"]
+      }
+    },
+    {
+      "id": "iceland",
+      "destination": "Reykjavik, Iceland",
+      "description": "You crave mystery. Discover waterfalls and northern lights, with cozy fine dining experiences.",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+      "funFact": "Fun fact: Iceland has no mosquitoes! It's one of the few places in the world where these insects are completely absent.",
+      "criteria": {
+        "weather": ["snowy", "misty"],
+        "activity": ["adventure", "wildlife"],
+        "palette": ["monochrome", "ocean"],
+        "pace": ["adventurous"],
+        "food": ["fine", "seafood"]
+      }
+    },
+    {
+      "id": "marrakech",
+      "destination": "Marrakech, Morocco",
+      "description": "You crave desert adventures. Explore souks, ride camels, and enjoy tagine.",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
+      "funFact": "Fun fact: Marrakech is known as the 'Red City' because of the reddish hue of its buildings and walls.",
+      "criteria": {
+        "weather": ["desert"],
+        "activity": ["cultural", "adventure"],
+        "palette": ["sunset", "earthy"],
+        "pace": ["balanced", "backpacking"],
+        "food": ["traditional", "street"]
+      }
+    },
+    {
+      "id": "singapore",
+      "destination": "Singapore",
+      "description": "You want tropical modernity. Experience futuristic gardens, diverse street food, and perfect fusion of nature and city.",
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd",
+      "funFact": "Fun fact: Singapore is a city-state with a rich cultural diversity, and it's home to over 7,000 different species of plants and animals!",
+      "criteria": {
+        "weather": ["rainy", "sunny"],
+        "activity": ["urban", "food"],
+        "palette": ["vibrant", "monochrome"],
+        "pace": ["fast", "luxury"],
+        "food": ["street", "fine"]
+      }
+    },
+    {
+      "id": "galapagos",
+      "destination": "Galápagos Islands, Ecuador",
+      "description": "You seek unique wildlife encounters. Meet giant tortoises, snorkel with sea lions, and explore volcanic landscapes.",
+      "image": "https://images.unsplash.com/photo-1544979590-37e9b47eb705",
+      "funFact": "Fun fact: The Galápagos Islands are a UNESCO World Heritage Site and home to many unique species of flora and fauna!",
+      "criteria": {
+        "weather": ["sunny", "mild"],
+        "activity": ["wildlife", "beach"],
+        "palette": ["ocean", "earthy"],
+        "pace": ["slow", "backpacking"],
+        "food": ["seafood", "healthy"]
+      }
+    },
+    {
+      "id": "bangkok",
+      "destination": "Bangkok, Thailand",
+      "description": "You crave vibrant street life. Explore bustling markets, ornate temples, and world-famous street food.",
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365",
+      "funFact": "Fun fact: Bangkok's full ceremonial name is the longest city name in the world, with 169 characters!",
+      "criteria": {
+        "weather": ["rainy", "sunny"],
+        "activity": ["food", "cultural"],
+        "palette": ["vibrant"],
+        "pace": ["fast"],
+        "food": ["street", "traditional"]
+      }
+    },
+    {
+      "id": "swiss-alps",
+      "destination": "Swiss Alps, Switzerland",
+      "description": "You desire mountain majesty. Experience pristine slopes, luxury chalets, and fondue by the fireplace.",
+      "image": "https://images.unsplash.com/photo-1531310197839-ccf54634509e",
+      "funFact": "Fun fact: Switzerland has enough nuclear bunkers to shelter its entire population!",
+      "criteria": {
+        "weather": ["snowy"],
+        "activity": ["adventure"],
+        "palette": ["monochrome", "earthy"],
+        "pace": ["luxury", "adventurous"],
+        "food": ["fine", "traditional"]
+      }
+    },
+    {
+      "id": "santorini",
+      "destination": "Santorini, Greece",
+      "description": "You seek Mediterranean charm. Discover white-washed buildings, sunset views, and fresh Greek cuisine.",
+      "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e",
+      "funFact": "Fun fact: Santorini's unique wine varieties come from grapes grown in volcanic soil!",
+      "criteria": {
+        "weather": ["sunny", "mild"],
+        "activity": ["beach", "food"],
+        "palette": ["pastel", "ocean"],
+        "pace": ["slow", "luxury"],
+        "food": ["seafood", "traditional"]
+      }
+    },
+    {
+      "id": "amazon",
+      "destination": "Amazon Rainforest, Brazil",
+      "description": "You want pure nature. Explore the world's largest rainforest, spot exotic wildlife, and experience indigenous culture.",
+      "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801",
+      "funFact": "Fun fact: The Amazon produces about 20% of the world's oxygen!",
+      "criteria": {
+        "weather": ["rainy"],
+        "activity": ["wildlife", "adventure"],
+        "palette": ["earthy", "vibrant"],
+        "pace": ["backpacking", "adventurous"],
+        "food": ["healthy", "traditional"]
+      }
+    },
+    {
+      "id": "seoul",
+      "destination": "Seoul, South Korea",
+      "description": "You seek urban energy. Experience K-culture, night markets, and cutting-edge technology.",
+      "image": "https://images.unsplash.com/photo-1538485399081-7191377e8241",
+      "funFact": "Fun fact: Seoul's subway system is one of the longest in the world and features heated seats in winter!",
+      "criteria": {
+        "weather": ["mild", "snowy"],
+        "activity": ["urban", "food"],
+        "palette": ["vibrant", "monochrome"],
+        "pace": ["fast"],
+        "food": ["street", "traditional"]
+      }
+    },
+    {
+      "id": "maldives",
+      "destination": "Maldives",
+      "description": "You dream of paradise. Experience overwater bungalows, crystal clear waters, and world-class diving.",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8",
+      "funFact": "Fun fact: The Maldives is the world's lowest country, with an average ground level of 1.5 meters above sea level!",
+      "criteria": {
+        "weather": ["sunny"],
+        "activity": ["beach"],
+        "palette": ["ocean", "pastel"],
+        "pace": ["slow", "luxury"],
+        "food": ["seafood", "fine"]
+      }
+    },
+    {
+      "id": "vancouver",
+      "destination": "Vancouver, Canada",
+      "description": "You want urban nature. Experience mountains meeting ocean, diverse cuisines, and outdoor adventures.",
+      "image": "https://images.unsplash.com/photo-1559511260-66a654ae982a",
+      "funFact": "Fun fact: Vancouver has the longest uninterrupted waterfront path in the world, the Seawall!",
+      "criteria": {
+        "weather": ["mild", "rainy"],
+        "activity": ["urban", "adventure"],
+        "palette": ["earthy", "ocean"],
+        "pace": ["balanced"],
+        "food": ["healthy", "fine"]
+      }
+    },
+    {
+      "id": "namibia",
+      "destination": "Namibia",
+      "description": "You want desert wildlife. Experience unique desert-adapted animals, stunning landscapes, and starry skies.",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
+      "funFact": "Fun fact: Namibia is home to the world's oldest desert, the Namib, which is over 55 million years old!",
+      "criteria": {
+        "weather": ["desert"],
+        "activity": ["wildlife", "adventure"],
+        "palette": ["earthy", "sunset"],
+        "pace": ["adventurous", "backpacking"],
+        "food": ["traditional", "healthy"]
+      }
+    },
+    {
+      "id": "cairo",
+      "destination": "Cairo, Egypt",
+      "description": "You want desert history. Explore ancient pyramids, vibrant markets, and Nile River cruises.",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
+      "funFact": "Fun fact: The Great Pyramid of Giza is the only surviving wonder of the ancient world!",
+      "criteria": {
+        "weather": ["desert"],
+        "activity": ["cultural", "food"],
+        "palette": ["earthy", "sunset"],
+        "pace": ["balanced", "luxury"],
+        "food": ["traditional", "street"]
+      }
+    },
+    {
+      "id": "sedona",
+      "destination": "Sedona, USA",
+      "description": "You want desert beauty. Experience red rock formations, spiritual retreats, and outdoor adventures.",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
+      "funFact": "Fun fact: Sedona is known for its vortex sites, believed to be centers of energy that promote healing and meditation!",
+      "criteria": {
+        "weather": ["desert"],
+        "activity": ["adventure", "cultural"],
+        "palette": ["earthy", "sunset"],
+        "pace": ["slow", "balanced"],
+        "food": ["healthy", "traditional"]
+      }
+    }
+  ]
+} 
