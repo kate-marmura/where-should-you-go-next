@@ -1,3 +1,83 @@
+# Where Should You Go Next?
+
+A travel destination recommendation app that helps you find your next vacation spot based on your preferences and budget.
+
+## Features
+
+- Interactive quiz to determine your ideal destination
+- Budget calculator for trip planning
+- Flight calculator to estimate travel costs
+- AI-powered flight search for real-time flight information
+- Beautiful destination cards with images and descriptions
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/kate-marmura/where-should-you-go-next.git
+cd where-should-you-go-next
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+   - Copy the `.env.example` file to `.env`:
+   ```bash
+   cp env.example .env
+   ```
+   - Open `.env` and add your OpenAI API key:
+   ```
+   VITE_OPENAI_API_KEY=your-api-key-here
+   ```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+5. Open your browser and navigate to:
+```
+http://localhost:5173
+```
+
+## Environment Variables
+
+The following environment variables are required:
+
+- `VITE_OPENAI_API_KEY`: Your OpenAI API key for the AI flight search feature
+
+## Available Scripts
+
+- `npm run dev`: Start the development server
+- `npm run build`: Build the app for production
+- `npm run preview`: Preview the production build locally
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- OpenAI API
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
